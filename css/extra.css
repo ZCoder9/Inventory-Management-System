@@ -1,0 +1,96 @@
+body{
+    background-color: #485461;
+    background-image: radial-gradient(circle, #485461, #28313b);
+    /* background-image: linear-gradient(315deg, #485461 0%, #28313b 74%); */
+    /* background-image: linear-gradient(#485461, #28313b); */
+    /* background-image: linear-gradient(to bottom right, #bdc3c7, #2c3e50); */
+
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    
+	/* background-size: 400% 400%; */
+    /* background: linear-gradient(-45deg, #284c64, #386c94, #007cc7, #4da8da); */
+	animation: gradient 15s ease infinite;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+*{
+    font-family: 'Rubik', sans-serif;
+    /* background-image: url('css/img.jpg'); */
+}
+
+.container-fluid{
+    border-radius: 5px;
+    /* background: linear-gradient(-45deg, #284c64, #386c94, #007cc7, #4da8da); */
+    background: linear-gradient(-45deg, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+.container h2{
+    color: white;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.container h2{
+    font-family: 'Rubik', sans-serif;
+}
+.col-md-3-btn{
+    float: left;
+}
+.btn1{
+    transition: all 0.4s ease 0s;
+}
+.btn1:hover,
+.btn1:active{
+    color: #2fa4e7;
+    text-shadow: 0px 0px 6px skyblue;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
+
+/* From HERE */
+
+.ml6 {
+    color: white;
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+.login{
+    margin-right: auto !important;
+  margin-left: auto !important;
+  padding-left: 200px !important;
+  padding-right: 200px !important;
+}
+
+
